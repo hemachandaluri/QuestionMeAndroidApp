@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Question Me"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.6"
+        android:background="@drawable/shape"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/reg_username"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="0.3"
+            android:background="@drawable/edittext_bg"
+            android:gravity="center"
+            android:hint="NAME"
+            android:imeOptions="actionNext"
+            android:textColorHint="#80673AB7" />
+
+        <EditText
+            android:id="@+id/reg_password"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="0.3"
+            android:background="@drawable/edittext_bg"
+            android:gravity="center"
+            android:hint="PASSWORD"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:textColorHint="#80673AB7" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/reg_email"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="0.3"
+            android:background="@drawable/edittext_bg"
+            android:gravity="center"
+            android:hint="EMAIL ID"
+            android:imeOptions="actionNext"
+            android:textColorHint="#80673AB7" />
+
+        <EditText
+            android:id="@+id/reg_phone"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="0.3"
+            android:background="@drawable/edittext_bg"
+            android:gravity="center"
+            android:hint="PHONE NUMBER"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:textColorHint="#80673AB7" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/reg_adress"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="0.3"
+            android:background="@drawable/edittext_bg"
+            android:gravity="center"
+            android:hint="ADDRESS"
+            android:imeOptions="actionNext"
+            android:textColorHint="#80673AB7" />
+
+        <LinearLayout
+		android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="horizontal" >
+
+            <Button
+                
+                android:id="@+id/btn_register"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_bg"
+                android:text="REGISTER"
+                android:textColor="@color/background"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15" >
+    </LinearLayout>
+
+</LinearLayout>
